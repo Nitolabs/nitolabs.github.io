@@ -3,3 +3,98 @@
     font-family: JetBrains Mono;
 }
 
+.std-header-1{
+    font-size: xx-large;
+}
+
+/*Header style*/
+.page-main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+  
+.header-logo{
+    flex: 0 0 auto;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+  
+.nav-item{
+    margin-right: 20px;
+}
+  
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-item a{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.nav-item a:hover{
+    opacity: 0;
+}
+
+/*Page content*/
+
+.page-content-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.services-table{
+    background-color: #2C666E;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.table-headers{
+    padding: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.table-elements{
+    text-align: center;
+    padding: 20px;
+}
+
+.blank-space{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 20px 40px 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.nav-descriptor{
+    background-color: #2C666E;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.characteristics-table {
+    background-color: #2C666E;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
