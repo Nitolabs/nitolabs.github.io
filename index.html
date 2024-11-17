@@ -18,17 +18,17 @@
         </div>
         <nav class="header-nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#">About Us</a></li>
-                <li class="nav-item"><a href="#">Why NL?</a></li>
-                <li class="nav-item"><a href="#">Services</a></li>
-                <li class="nav-item"><a href="#">Contact Us</a></li>
+                <li class="nav-item"><a href="#nl">NitoLabs</a></li>
+                <li class="nav-item"><a href="#whynl">Why NL?</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <br><br>
+    <br id="nl"><br><br><br>
 
-    <div class="page-content-div">   
+    <div class="page-content-div" >   
         <nav class="nav-segments">
             <h1 class="std-header-1">
                 NitoLabs: Your Digital Innovation Partner   
@@ -43,9 +43,33 @@
         </nav>
     </div>
 
-    <br><br><br>
+    <br id="whynl"><br><br><br><br><br>
 
-    <div class="page-content-div">
+    <div class="page-content-div" >    
+        <center>
+        <h1 class="std-header-1">
+            Why Choose NitoLabs?
+        </h1>
+        <br>
+        <p class="std-paragraph">
+            NitoLabs is more than just a technology company; we're your trusted partner. Our team of skilled developers and designers are passionate about crafting innovative solutions that drive results. We prioritize your success by maintaining transparent communication throughout the entire process. With a proven track record of delivering exceptional projects, you can rest assured that you're in good hands.
+        </p>
+        <br>
+        <table class="characteristics-table">
+            <tr>
+                <th class="characteristics-table-elements">Expert Team</th>
+                <th class="characteristics-table-elements">Innovative Solutions</th>
+                <th class="characteristics-table-elements">Client-Centric Approach</th>
+                <th class="characteristics-table-elements">Transparent Communication</th>
+                <th class="characteristics-table-elements">Proven Track Record </th>
+            </tr>
+        </table>
+        </center> 
+    </div>
+
+    <br id="services"><br><br><br><br>
+
+    <div class="page-content-div" >
             <center>
             <h1 class="std-header-1">
                 Our Services   
@@ -75,49 +99,50 @@
             </center>
     </div>
 
-    <br><br><br>
+    <br><br><br><br><br><br>
 
-    <div class="page-content-div">    
-        <center>
-        <h1 class="std-header-1">
-            Why Choose NitoLabs?
-        </h1>
-        <br>
-        <p class="std-paragraph">
-            NitoLabs is more than just a technology company; we're your trusted partner. Our team of skilled developers and designers are passionate about crafting innovative solutions that drive results. We prioritize your success by maintaining transparent communication throughout the entire process. With a proven track record of delivering exceptional projects, you can rest assured that you're in good hands.
-        </p>
-        <br>
-        <ol style="list-style: none;">
-            <li class="benefits-list">
-                Expert Team
-            </li>
-            <li class="benefits-list">
-                Innovative Solutions
-            </li>
-            <li class="benefits-list">
-                Client-Centric Approach
-            </li>
-            <li class="benefits-list">
-                Transparent Communication
-            </li>
-            <li class="benefits-list">
-                Proven Track Record
-            </li>
-        </ol>
-        </center> 
+    <div class="page-content-div" id="contact">
+        <nav>
+            <center>
+                <h1 class="std-header-1">
+                    Contact Us
+                </h1>   
+            </center>
+            <br>
+            <form action="mailto:tu_correo@nitolabs.com" method="post" enctype="text/plain" class="contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">  
+                </div>
+                <div>
+                    <label for="company">Company:</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <br>
+                <center>
+                <button type="submit">Send message</button>    
+                </center>
+                
+            </form>    
+        </nav>
     </div>
 
-    <br><br>
-
-    <footer class="page-main-footer">
-        <div>
-            <img src="" alt="">
-        </div>
-        <div class="footer-div-information">
-            <p class="footer-information">
-
-            </p>
-        </div>
-    </footer>
+    <br>
 </body>
 </html>

@@ -3,6 +3,10 @@
     font-family: JetBrains Mono;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .std-header-1{
     font-size: xx-large;
 }
@@ -91,10 +95,57 @@
     border-radius: 20px;
 }
 
-.characteristics-table {
+.characteristics-table{
     background-color: #2C666E;
     color: white;
     padding: 20px;
     border-radius: 20px;
 }
 
+.characteristics-table-elements{
+    padding: 25px;
+}
+
+/*Contact form*/
+
+.contact-form {
+    width: 800px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2C666E;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2c666e62;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color:#2C666E;
+    color: white;
+    width: 822px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
