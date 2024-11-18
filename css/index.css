@@ -149,3 +149,87 @@ html {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/*Media Queries - Responsive Styles*/
+
+@media (max-width: 768px) {
+    .page-main-header {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .header-logo {
+        margin-bottom: 15px;
+    }
+
+    .nav-list {
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .page-content-div {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .services-table,
+    .characteristics-table {
+        padding: 15px;
+    }
+
+    .services-table th,
+    .services-table td {
+        font-size: 14px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .std-header-1 {
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-table th,
+    .services-table td,
+    .characteristics-table th,
+    .characteristics-table td {
+        font-size: 12px;
+    }
+
+    .page-content-div {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px;
+    }
+}
